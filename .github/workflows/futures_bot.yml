@@ -1,0 +1,43 @@
+name: ViraLab Futures Bot
+
+"on":
+ schedule:
+   - cron: '0 * * * *'
+ workflow_dispatch:
+
+permissions:
+ contents: write
+
+jobs:
+ run_bot:
+   runs-on: ubuntu-latest
+   timeout-minutes: 15
+
+   steps:
+     - name: Checkout
+       uses: actions/checkout@v4
+
+     - name: Setup Python
+       uses: actions/setup-python@v5
+       with:
+         python-version: '3.11'
+
+     - name: Install packages
+       run: pip install requests --quiet
+
+     - name: Run Bot
+       env:
+         BINANCE_API_KEY:    ${{ secrets.BINANCE_API_KEY }}
+         BINANCE_API_SECRET: ${{ secrets.BINANCE_API_SECRET }}
+         EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+         EMAIL_FROM:         ${{ secrets.EMAIL_FROM }}
+         LIVE_TRADING:       ${{ secrets.LIVE_TRADING }}
+       run: python3 futures_bot.py
+
+     - name: Save state
+       run: |
+         git config user.email "futuresbot@github.com"
+         git config user.name "FuturesBot"
+         git add futures_state.json || true
+         git diff --staged --quiet || git commit -m "State $(date +'%d %b %H:%M')"
+         git push || true
