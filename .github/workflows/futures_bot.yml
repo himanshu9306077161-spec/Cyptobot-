@@ -32,6 +32,7 @@ jobs:
          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
          EMAIL_FROM:         ${{ secrets.EMAIL_FROM }}
          LIVE_TRADING:       ${{ secrets.LIVE_TRADING }}
+         WEBSHARE_PROXY:     ${{ secrets.WEBSHARE_PROXY }}
        run: python3 futures_bot.py
 
      - name: Save state
