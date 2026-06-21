@@ -1,12 +1,42 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "LTCUSDT",
+      "direction": "LONG",
+      "entry_price": 45.09,
+      "sl_price": 44.07,
+      "tp1_price": 46.62,
+      "tp2_price": 48.14,
+      "tp1_hit": false,
+      "peak_price": 45.09,
+      "qty": 0.583,
+      "half_qty": 0.291,
+      "capital": 6.574807872,
+      "pos_value": 26.28747,
+      "leverage": 4,
+      "atr": 0.3392857142857153,
+      "adx": 51.20225518957118,
+      "regime": "trending",
+      "score": 7,
+      "sl_mult": 3.0,
+      "tp1_mult": 4.5,
+      "tp2_mult": 9.0,
+      "entry_time": 1782068419.29158,
+      "entry_date": "21 Jun 2026 19:00 UTC",
+      "paper": false,
+      "order_id": 43503229351,
+      "sl_order_id": 3000001911300571,
+      "tp_order_id": 3000001911300679
+    }
+  ],
   "closed_trades": [],
   "total_trades": 0,
   "wins": 0,
   "losses": 0,
   "total_pnl": 0.0,
-  "start_balance": 0.0,
+  "start_balance": 7.30534208,
   "daily_loss": 0.0,
   "last_report_date": "",
-  "consecutive_losses": 0
+  "consecutive_losses": 0,
+  "last_daily_reset": "21Jun2026"
 }
