@@ -1,12 +1,42 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "RESOLVUSDT",
+      "direction": "LONG",
+      "entry_price": 0.02595,
+      "sl_price": 0.0208586,
+      "tp1_price": 0.0335871,
+      "tp2_price": 0.0412243,
+      "tp1_hit": false,
+      "peak_price": 0.02595,
+      "qty": 878.0,
+      "half_qty": 439.0,
+      "capital": 7.599865104,
+      "pos_value": 22.784100000000002,
+      "leverage": 3,
+      "atr": 0.0016971428571428576,
+      "adx": 48.70699806854325,
+      "regime": "trending",
+      "score": 8,
+      "sl_mult": 3.0,
+      "tp1_mult": 4.5,
+      "tp2_mult": 9.0,
+      "entry_time": 1782063853.764406,
+      "entry_date": "21 Jun 2026 17:44 UTC",
+      "paper": false,
+      "order_id": 2635884700,
+      "sl_order_id": 3000001910929993,
+      "tp_order_id": 3000001910930094
+    }
+  ],
   "closed_trades": [],
   "total_trades": 0,
   "wins": 0,
   "losses": 0,
   "total_pnl": 0.0,
-  "start_balance": 0.0,
+  "start_balance": 8.44429456,
   "daily_loss": 0.0,
   "last_report_date": "",
-  "consecutive_losses": 0
+  "consecutive_losses": 0,
+  "last_daily_reset": "21Jun2026"
 }
