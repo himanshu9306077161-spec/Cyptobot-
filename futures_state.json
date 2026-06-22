@@ -27,6 +27,34 @@
       "order_id": 43503229351,
       "sl_order_id": 3000001911300571,
       "tp_order_id": 3000001911300679
+    },
+    {
+      "symbol": "ETHUSDT",
+      "direction": "LONG",
+      "entry_price": 1737.42,
+      "sl_price": 1715.79,
+      "tp1_price": 1769.87,
+      "tp2_price": 1802.31,
+      "tp1_hit": false,
+      "peak_price": 1737.42,
+      "qty": 0.014,
+      "half_qty": 0.007,
+      "capital": 6.428907414,
+      "pos_value": 24.323880000000003,
+      "leverage": 4,
+      "atr": 14.420714285714325,
+      "adx": 16.983286089077556,
+      "regime": "ranging",
+      "score": 6,
+      "sl_mult": 1.5,
+      "tp1_mult": 2.25,
+      "tp2_mult": 4.5,
+      "entry_time": 1782109100.0633173,
+      "entry_date": "22 Jun 2026 06:18 UTC",
+      "paper": false,
+      "order_id": 8389766214309439995,
+      "sl_order_id": 3000001915618890,
+      "tp_order_id": 3000001915619032
     }
   ],
   "closed_trades": [],
@@ -38,5 +66,5 @@
   "daily_loss": 0.0,
   "last_report_date": "",
   "consecutive_losses": 0,
-  "last_daily_reset": "21Jun2026"
+  "last_daily_reset": "22Jun2026"
 }
