@@ -1,6 +1,6 @@
-name: ViraLab Futures Bot
+name: ViraLab Futures Bot v5
 
-"on":
+on:
  schedule:
    - cron: '*/30 * * * *'
  workflow_dispatch:
@@ -11,7 +11,7 @@ permissions:
 jobs:
  run_bot:
    runs-on: ubuntu-latest
-   timeout-minutes: 15
+   timeout-minutes: 14
 
    steps:
      - name: Checkout
@@ -35,10 +35,12 @@ jobs:
          WEBSHARE_PROXY:     ${{ secrets.WEBSHARE_PROXY }}
        run: python3 futures_bot.py
 
-     - name: Save state
+     - name: Save state and keep-alive
        run: |
          git config user.email "futuresbot@github.com"
          git config user.name "FuturesBot"
          git add futures_state.json || true
-         git diff --staged --quiet || git commit -m "State $(date +'%d %b %H:%M')"
+         echo "$(date -u)" > .last_run
+         git add .last_run
+         git diff --staged --quiet || git commit -m "Bot run $(date +'%d %b %H:%M UTC')"
          git push || true
