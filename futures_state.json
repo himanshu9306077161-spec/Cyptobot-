@@ -1,6 +1,32 @@
 {
   "positions": [
     {
+      "symbol": "DYDXUSDT",
+      "direction": "LONG",
+      "entry": 0.1492,
+      "sl": 0.140939,
+      "tp1": 0.162968,
+      "tp2": 0.173982,
+      "tp1_hit": false,
+      "peak": 0.1492,
+      "qty": 147.4,
+      "half_qty": 73.7,
+      "capital": 4.4,
+      "notional": 21.99208,
+      "leverage": 5,
+      "atr": 0.005507142857142859,
+      "adx": 24.362540833589897,
+      "score": 8,
+      "open_time": 1782255334.4402359,
+      "open_date": "23 Jun 2026 22:55 UTC",
+      "paper": false,
+      "order_id": 19798941405,
+      "sl_algo_id": 3000001932127824,
+      "tp_algo_id": 3000001932127903
+    }
+  ],
+  "closed_trades": [
+    {
       "symbol": "TRXUSDT",
       "direction": "LONG",
       "entry": 0.33013,
@@ -22,16 +48,22 @@
       "paper": false,
       "order_id": 18298273891,
       "sl_algo_id": 3000001929466164,
-      "tp_algo_id": 3000001929466298
+      "tp_algo_id": 3000001929466298,
+      "replace": true,
+      "status": "closed",
+      "exit": 0.32904,
+      "exit_date": "23 Jun 2026 22:45 UTC",
+      "pnl_pct": -0.33,
+      "pnl_usd": -0.073,
+      "reason": "🔄 Replace: stuck 7h prog=-26%"
     }
   ],
-  "closed_trades": [],
-  "total_trades": 0,
+  "total_trades": 1,
   "wins": 0,
-  "losses": 0,
-  "total_pnl": 0.0,
+  "losses": 1,
+  "total_pnl": -0.07263805167661092,
   "start_balance": 6.04622146,
-  "daily_loss": 0.0,
-  "last_email_time": 1782230716.1289423,
+  "daily_loss": -0.07263805167661092,
+  "last_email_time": 1782254743.661611,
   "last_daily_reset": "23Jun2026"
 }
