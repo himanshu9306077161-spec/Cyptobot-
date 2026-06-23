@@ -1,12 +1,37 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "TRXUSDT",
+      "direction": "LONG",
+      "entry": 0.33013,
+      "sl": 0.32734,
+      "tp1": 0.33431,
+      "tp2": 0.33849,
+      "tp1_hit": false,
+      "peak": 0.33013,
+      "qty": 66.0,
+      "half_qty": 33.0,
+      "capital": 4.4,
+      "notional": 21.78858,
+      "leverage": 5,
+      "atr": 0.0011142857142857185,
+      "adx": 39.057658530288,
+      "score": 7,
+      "open_time": 1782231153.4296741,
+      "open_date": "23 Jun 2026 16:12 UTC",
+      "paper": false,
+      "order_id": 18298273891,
+      "sl_algo_id": 3000001929466164,
+      "tp_algo_id": 3000001929466298
+    }
+  ],
   "closed_trades": [],
   "total_trades": 0,
   "wins": 0,
   "losses": 0,
   "total_pnl": 0.0,
-  "start_balance": 0.0,
+  "start_balance": 6.04622146,
   "daily_loss": 0.0,
-  "last_email_time": 0,
-  "last_daily_reset": ""
+  "last_email_time": 1782230716.1289423,
+  "last_daily_reset": "23Jun2026"
 }
