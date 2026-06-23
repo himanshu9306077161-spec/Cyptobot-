@@ -1,6 +1,32 @@
 {
   "positions": [
     {
+      "symbol": "BREVUSDT",
+      "direction": "LONG",
+      "entry": 0.0885,
+      "sl": 0.0849375,
+      "tp1": 0.0944375,
+      "tp2": 0.0991875,
+      "tp1_hit": false,
+      "peak": 0.0885,
+      "qty": 248.0,
+      "half_qty": 124.0,
+      "capital": 4.4,
+      "notional": 21.948,
+      "leverage": 5,
+      "atr": 0.002375,
+      "adx": 16.781279253389147,
+      "score": 9,
+      "open_time": 1782212178.7262387,
+      "open_date": "23 Jun 2026 10:56 UTC",
+      "paper": false,
+      "order_id": 485033860,
+      "sl_algo_id": 3000001927058442,
+      "tp_algo_id": 3000001927058574
+    }
+  ],
+  "closed_trades": [
+    {
       "symbol": "POWERUSDT",
       "direction": "LONG",
       "entry": 0.08509,
@@ -8,7 +34,7 @@
       "tp1": 0.0956516,
       "tp2": 0.1062132,
       "tp1_hit": false,
-      "peak": 0.08509,
+      "peak": 0.08607,
       "qty": 258.0,
       "half_qty": 129.0,
       "capital": 4.4,
@@ -22,14 +48,20 @@
       "paper": false,
       "order_id": 2024625041,
       "sl_algo_id": 3000001925338528,
-      "tp_algo_id": 3000001925338695
+      "tp_algo_id": 3000001925338695,
+      "replace": true,
+      "status": "closed",
+      "exit": 0.08607,
+      "exit_date": "23 Jun 2026 10:48 UTC",
+      "pnl_pct": 1.15,
+      "pnl_usd": 0.253,
+      "reason": "🔄 Replace: stuck 4h prog=9%"
     }
   ],
-  "closed_trades": [],
-  "total_trades": 0,
-  "wins": 0,
+  "total_trades": 1,
+  "wins": 1,
   "losses": 0,
-  "total_pnl": 0.0,
+  "total_pnl": 0.2533787754142659,
   "start_balance": 6.80660399,
   "daily_loss": 0.0,
   "last_email_time": 1782196690.0655537,
