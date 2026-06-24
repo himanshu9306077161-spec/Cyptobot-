@@ -1,5 +1,24 @@
 {
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "XRPUSDT",
+      "direction": "SHORT",
+      "entry": 1.0863,
+      "sl": 1.1406,
+      "tp": 0.9777,
+      "qty": 18.4,
+      "capital": 2.0,
+      "notional": 20.0,
+      "score": 7,
+      "peak": 1.0863,
+      "open_time": 1782296529.7961862,
+      "open_date": "24 Jun 2026 10:22 UTC",
+      "paper": false,
+      "order_id": 152416791063,
+      "sl_id": 3000001936266612,
+      "tp_id": 3000001936266771
+    }
+  ],
   "closed_trades": [],
   "total_trades": 0,
   "wins": 0,
