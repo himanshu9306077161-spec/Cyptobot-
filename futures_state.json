@@ -1,24 +1,5 @@
 {
-  "positions": [
-    {
-      "symbol": "REUSDT",
-      "direction": "SHORT",
-      "entry": 0.5813,
-      "sl": 0.610365,
-      "tp": 0.52317,
-      "qty": 34.0,
-      "capital": 2.0,
-      "notional": 20.0,
-      "score": 6,
-      "peak": 0.5813,
-      "open_time": 1782383259.372399,
-      "open_date": "25 Jun 2026 10:27 UTC",
-      "paper": false,
-      "order_id": 352764461,
-      "sl_id": 3000001946793149,
-      "tp_id": 3000001946793295
-    }
-  ],
+  "positions": [],
   "closed_trades": [
     {
       "symbol": "XRPUSDT",
@@ -43,14 +24,38 @@
       "pnl_pct": 0.74,
       "pnl_usd": 0.147,
       "reason": "🔄 Stuck 24h"
+    },
+    {
+      "symbol": "REUSDT",
+      "direction": "SHORT",
+      "entry": 0.5813,
+      "sl": 0.610365,
+      "tp": 0.52317,
+      "qty": 34.0,
+      "capital": 2.0,
+      "notional": 20.0,
+      "score": 6,
+      "peak": 0.5813,
+      "open_time": 1782383259.372399,
+      "open_date": "25 Jun 2026 10:27 UTC",
+      "paper": false,
+      "order_id": 352764461,
+      "sl_id": 3000001946793149,
+      "tp_id": 3000001946793295,
+      "status": "closed",
+      "exit": 0.5871,
+      "exit_date": "25 Jun 2026 17:34 UTC",
+      "pnl_pct": -1.0,
+      "pnl_usd": -0.2,
+      "reason": "🔄 Stuck 7h"
     }
   ],
-  "total_trades": 1,
+  "total_trades": 2,
   "wins": 1,
-  "losses": 0,
-  "total_pnl": 0.1472889625333703,
+  "losses": 1,
+  "total_pnl": -0.05226376411379696,
   "start_balance": 5.11469663,
-  "daily_loss": 0.0,
-  "last_email_time": 1782383062.9155715,
+  "daily_loss": -0.19955272664716725,
+  "last_email_time": 1782408862.9079568,
   "last_daily_reset": "25Jun2026"
 }
