@@ -55,7 +55,7 @@
   "losses": 1,
   "total_pnl": -0.05226376411379696,
   "start_balance": 5.11469663,
-  "daily_loss": -0.19955272664716725,
+  "daily_loss": 0.0,
   "last_email_time": 1782408862.9079568,
-  "last_daily_reset": "25Jun2026"
+  "last_daily_reset": "26Jun2026"
 }
